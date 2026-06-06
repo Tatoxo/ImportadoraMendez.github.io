@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taller M&G — Mecánica · Pintura · Enderezado · Guatemala</title>
+  <meta name="description" content="Taller M&G — Servicios completos de mecánica, pintura, enderezado, lavado de tapicería y pulidas generales. Ubicado junto a Importadora Méndez en Guatemala." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/shared.css" />
+  <link rel="stylesheet" href="../css/servicios.css" />
+  <link rel="stylesheet" href="../css/taller.css" />
+</head>
+<body>
+
+  <!-- SUB-NAV -->
+  <nav class="sub-nav">
+    <div class="container sub-nav-container">
+      <div class="contact-info">
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <a href="mailto:importadoramendez@gmail.com">importadoramendez@gmail.com</a>
+      </div>
+      <div class="contact-info">
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.56 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <a href="tel:+50242754206">4275-4206</a>
+        <span class="divider-pipe">|</span>
+        <svg class="icon-sm" style="color:#25D366" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        <a href="https://wa.me/50242754206" target="_blank">WhatsApp</a>
+      </div>
+      <div class="contact-info horario-info">
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span>Lun – Sáb &nbsp;|&nbsp; 8:00am – 8:00pm</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <a href="../index.html"><img src="../img/logo2.png" alt="Importadora Méndez" class="logo" /></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html" onclick="closeMenu()">Inicio</a></li>
+        <li><a href="../index.html#carros" onclick="closeMenu()">Catálogo</a></li>
+        <li class="nav-active"><a href="taller-mg.html" onclick="closeMenu()">Taller M&G</a></li>
+        <li><a href="vendemos-tu-vehiculo.html" onclick="closeMenu()">Vender Vehículo</a></li>
+        <li><a href="importamos-tu-vehiculo.html" onclick="closeMenu()">Importar Vehículo</a></li>
+        <li class="nav-cta"><a href="#agendar" onclick="closeMenu()">Agendar Servicio</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- HERO TALLER -->
+  <div class="taller-hero">
+    <img src="../img/taller-mecanico.png" alt="Taller M&G" class="taller-hero-bg" />
+    <div class="taller-hero-overlay"></div>
+    <div class="container taller-hero-content">
+      <div class="breadcrumb" style="margin-bottom:24px">
+        <a href="../index.html">Inicio</a>
+        <span class="breadcrumb-sep">›</span>
+        <span>Taller M&G</span>
+      </div>
+      <div class="taller-hero-badge">
+        <span class="badge-pulse"></span>
+        Taller en funcionamiento
+      </div>
+      <h1 class="taller-hero-title">
+        Taller<br>
+        <span class="taller-hero-accent">M<em>&</em>G</span>
+      </h1>
+      <p class="taller-hero-sub">Mecánica · Pintura · Enderezado · Tapicería · Pulidas</p>
+      <p class="taller-hero-desc">
+        Técnicos especializados y equipos de calidad para que tu vehículo<br class="br-desk">
+        salga como nuevo. Ubicado junto a Importadora Méndez.
+      </p>
+      <div class="taller-hero-btns">
+        <a href="#agendar" class="btn-primary">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          Agendar Servicio
+        </a>
+        <a href="https://wa.me/50242754206?text=Hola!%20Quiero%20información%20sobre%20los%20servicios%20del%20Taller%20M%26G." class="btn-outline" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+          Consultar por WhatsApp
+        </a>
+      </div>
+    </div>
+    <!-- stats flotantes -->
+    <div class="taller-hero-stats">
+      <div class="ths-item">
+        <strong>5</strong>
+        <span>Servicios especializados</span>
+      </div>
+      <div class="ths-sep"></div>
+      <div class="ths-item">
+        <strong>10+</strong>
+        <span>Años de experiencia</span>
+      </div>
+      <div class="ths-sep"></div>
+      <div class="ths-item">
+        <strong>100%</strong>
+        <span>Garantía en trabajo</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICIOS DETALLE -->
+  <section class="taller-servicios-section">
+    <div class="container">
+      <div class="section-header centered">
+        <span class="section-eyebrow">Lo que hacemos</span>
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <p class="section-subtitle">Cada servicio es realizado con técnicos especializados, materiales de calidad y el cuidado que tu vehículo merece.</p>
+      </div>
+
+      <div class="taller-servicios-grid">
+
+        <!-- PINTURA -->
+        <article class="ts-card" id="pintura">
+          <div class="ts-card-icon-wrap">
+            <div class="ts-card-icon">🎨</div>
+          </div>
+          <div class="ts-card-body">
+            <span class="ts-card-num">01</span>
+            <h3>Pintura</h3>
+            <p>Devolvemos el color y brillo original a tu vehículo con pinturas de alta calidad. Realizamos trabajos de pintura total, parcial y retoques puntuales con acabados de fábrica.</p>
+            <ul class="ts-card-list">
+              <li>Pintura completa del vehículo</li>
+              <li>Pintura parcial por panel</li>
+              <li>Retoque de rayones y golpes</li>
+              <li>Pintura de accesorios y partes plásticas</li>
+              <li>Cabina de pintura profesional</li>
+            </ul>
+          </div>
+          <a href="#agendar" class="ts-card-cta">Agendar Pintura →</a>
+        </article>
+
+        <!-- ENDEREZADO -->
+        <article class="ts-card" id="enderezado">
+          <div class="ts-card-icon-wrap">
+            <div class="ts-card-icon">🔧</div>
+          </div>
+          <div class="ts-card-body">
+            <span class="ts-card-num">02</span>
+            <h3>Enderezado</h3>
+            <p>Corregimos deformaciones y daños en la carrocería de tu vehículo utilizando equipos de precisión para dejar cada panel en su forma y posición original.</p>
+            <ul class="ts-card-list">
+              <li>Enderezado de carrocería completa</li>
+              <li>Corrección de abolladuras sin pintura</li>
+              <li>Reparación de golpes y choques</li>
+              <li>Reemplazo de paneles dañados</li>
+              <li>Alineación de puertas y capó</li>
+            </ul>
+          </div>
+          <a href="#agendar" class="ts-card-cta">Agendar Enderezado →</a>
+        </article>
+
+        <!-- MECÁNICA -->
+        <article class="ts-card ts-card--featured" id="mecanica">
+          <div class="ts-card-featured-badge">Más solicitado</div>
+          <div class="ts-card-icon-wrap">
+            <div class="ts-card-icon">⚙️</div>
+          </div>
+          <div class="ts-card-body">
+            <span class="ts-card-num">03</span>
+            <h3>Mecánica General</h3>
+            <p>Diagnóstico y reparación completa del sistema mecánico de tu vehículo. Motor, frenos, suspensión, transmisión y todo lo que necesita tu auto para funcionar perfectamente.</p>
+            <ul class="ts-card-list">
+              <li>Mantenimiento preventivo y correctivo</li>
+              <li>Cambio de aceite y filtros</li>
+              <li>Sistema de frenos completo</li>
+              <li>Reparación de motor y transmisión</li>
+              <li>Diagnóstico computarizado</li>
+              <li>Sistema de suspensión y dirección</li>
+            </ul>
+          </div>
+          <a href="#agendar" class="ts-card-cta">Agendar Mecánica →</a>
+        </article>
+
+        <!-- TAPICERÍA -->
+        <article class="ts-card" id="tapiceria">
+          <div class="ts-card-icon-wrap">
+            <div class="ts-card-icon">🪑</div>
+          </div>
+          <div class="ts-card-body">
+            <span class="ts-card-num">04</span>
+            <h3>Lavado de Tapicería</h3>
+            <p>Limpieza profunda de todos los interiores de tu vehículo. Eliminamos manchas, olores y bacterias para dejarte un interior como nuevo con productos especializados.</p>
+            <ul class="ts-card-list">
+              <li>Lavado profundo de asientos</li>
+              <li>Limpieza de alfombras y tapetes</li>
+              <li>Desinfección de habitáculo</li>
+              <li>Limpieza de techo interior</li>
+              <li>Tratamiento anti-olor</li>
+            </ul>
+          </div>
+          <a href="#agendar" class="ts-card-cta">Agendar Tapicería →</a>
+        </article>
+
+        <!-- PULIDAS -->
+        <article class="ts-card" id="pulidas">
+          <div class="ts-card-icon-wrap">
+            <div class="ts-card-icon">✨</div>
+          </div>
+          <div class="ts-card-body">
+            <span class="ts-card-num">05</span>
+            <h3>Pulidas Generales</h3>
+            <p>Recuperamos el brillo y la apariencia original de la pintura de tu vehículo con técnicas de pulido, encerado y detallado que protegen y embellecen tu auto.</p>
+            <ul class="ts-card-list">
+              <li>Pulido de pintura completo</li>
+              <li>Encerado de protección</li>
+              <li>Detallado exterior profesional</li>
+              <li>Pulido de faros y luces</li>
+              <li>Tratamiento de protección UV</li>
+            </ul>
+          </div>
+          <a href="#agendar" class="ts-card-cta">Agendar Pulida →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIRNOS -->
+  <section class="taller-why-section">
+    <div class="container">
+      <div class="taller-why-grid">
+        <div class="taller-why-left">
+          <span class="section-eyebrow">Nuestra diferencia</span>
+          <h2 class="section-title">¿Por qué elegir<br>Taller M&G?</h2>
+          <div class="divider-line"></div>
+          <p style="color:var(--texto-gris);font-size:15px;line-height:1.9;margin-bottom:32px;">
+            No somos un taller cualquiera. Somos el taller de confianza que nació junto a Importadora Méndez para ofrecer servicio completo en un mismo lugar.
+          </p>
+          <div class="taller-why-items">
+            <div class="taller-why-item">
+              <div class="taller-why-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <div>
+                <strong>Técnicos certificados</strong>
+                <p>Todo nuestro personal cuenta con experiencia comprobada y capacitación continua.</p>
+              </div>
+            </div>
+            <div class="taller-why-item">
+              <div class="taller-why-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <strong>Tiempos de entrega cumplidos</strong>
+                <p>Respetamos los plazos acordados porque sabemos que tu tiempo es valioso.</p>
+              </div>
+            </div>
+            <div class="taller-why-item">
+              <div class="taller-why-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <strong>Garantía en todos los trabajos</strong>
+                <p>Respaldamos la calidad de cada servicio. Si no quedás satisfecho, lo corregimos.</p>
+              </div>
+            </div>
+            <div class="taller-why-item">
+              <div class="taller-why-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div>
+                <strong>Atención personalizada</strong>
+                <p>Te explicamos todo el proceso, materiales usados y costo antes de comenzar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="taller-why-right">
+          <div class="taller-why-img-wrap">
+            <img src="../img/taller-mecanico.png" alt="Taller M&G especializado" />
+            <div class="taller-why-badge">
+              <div class="taller-why-badge-inner">
+                <span class="taller-why-badge-num">10+</span>
+                <span class="taller-why-badge-txt">Años de<br>experiencia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="taller-proceso-section">
+    <div class="container">
+      <div class="section-header centered">
+        <span class="section-eyebrow">Fácil y rápido</span>
+        <h2 class="section-title">¿Cómo funciona?</h2>
+        <p class="section-subtitle">Agendar un servicio con nosotros es muy sencillo. Solo sigue estos pasos.</p>
+      </div>
+      <div class="proceso-grid">
+        <div class="proceso-item">
+          <div class="proceso-num">01</div>
+          <div class="proceso-connector"></div>
+          <div class="proceso-icon">📱</div>
+          <h3>Contáctanos</h3>
+          <p>Escríbenos por WhatsApp o completa el formulario de agendamiento con los datos de tu vehículo.</p>
+        </div>
+        <div class="proceso-item">
+          <div class="proceso-num">02</div>
+          <div class="proceso-connector"></div>
+          <div class="proceso-icon">🔍</div>
+          <h3>Diagnóstico gratuito</h3>
+          <p>Revisamos tu vehículo, te damos un diagnóstico completo y el presupuesto exacto sin costo.</p>
+        </div>
+        <div class="proceso-item">
+          <div class="proceso-num">03</div>
+          <div class="proceso-connector"></div>
+          <div class="proceso-icon">🔨</div>
+          <h3>Realizamos el trabajo</h3>
+          <p>Con tu aprobación iniciamos el servicio. Te mantenemos informado del avance en todo momento.</p>
+        </div>
+        <div class="proceso-item">
+          <div class="proceso-num">04</div>
+          <div class="proceso-connector last"></div>
+          <div class="proceso-icon">🚗</div>
+          <h3>Entregamos tu vehículo</h3>
+          <p>Recibes tu auto listo, limpio y con garantía escrita del trabajo realizado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO AGENDAR -->
+  <section class="service-page" id="agendar">
+    <div class="container service-grid">
+
+      <!-- FORM -->
+      <div class="form-card">
+        <div class="form-card-header" style="background:linear-gradient(135deg, #1a1400 0%, var(--gris-card) 100%);">
+          <h2>Agendar Servicio</h2>
+          <p>Completa el formulario y te contactamos por WhatsApp</p>
+        </div>
+        <div class="form-card-body">
+          <form id="tallerForm" onsubmit="handleTaller(event)">
+            <p class="form-section-title">Tus datos</p>
+            <div class="form-stack">
+              <div class="form-group">
+                <label>Nombre completo *</label>
+                <input type="text" name="nombre" placeholder="Juan Carlos Pérez" required />
+              </div>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label>Teléfono / WhatsApp *</label>
+                  <input type="tel" name="telefono" placeholder="5555-4444" required />
+                </div>
+                <div class="form-group">
+                  <label>Email</label>
+                  <input type="email" name="email" placeholder="tu@email.com" />
+                </div>
+              </div>
+            </div>
+
+            <p class="form-section-title">Tu vehículo</p>
+            <div class="form-stack">
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label>Marca *</label>
+                  <input type="text" name="marca" placeholder="Toyota" required />
+                </div>
+                <div class="form-group">
+                  <label>Modelo *</label>
+                  <input type="text" name="modelo" placeholder="Corolla" required />
+                </div>
+              </div>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label>Año</label>
+                  <input type="text" name="anio" placeholder="2018" />
+                </div>
+                <div class="form-group">
+                  <label>Color</label>
+                  <input type="text" name="color" placeholder="Blanco" />
+                </div>
+              </div>
+            </div>
+
+            <p class="form-section-title">Servicio requerido</p>
+            <div class="form-stack">
+              <div class="form-group">
+                <label>Servicio *</label>
+                <select name="servicio" required>
+                  <option value="">Selecciona el servicio</option>
+                  <option>🎨 Pintura — Completa o parcial</option>
+                  <option>🔧 Enderezado — Carrocería y abolladuras</option>
+                  <option>⚙️ Mecánica General — Motor, frenos, suspensión</option>
+                  <option>🪑 Lavado de Tapicería — Interiores completos</option>
+                  <option>✨ Pulida General — Brillo y protección</option>
+                  <option>🔀 Varios servicios</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Describe el problema o servicio necesario *</label>
+                <textarea name="descripcion" rows="4" placeholder="Ej: El vehículo tiene un golpe en la puerta trasera derecha que necesita enderezado y pintura..." required></textarea>
+              </div>
+              <div class="form-group">
+                <label>Fecha preferida de ingreso</label>
+                <input type="date" name="fecha" />
+              </div>
+              <label class="upload-box">
+                <span class="form-section-title" style="margin:0 0 8px">Fotos del problema (opcional)</span>
+                <div class="upload-trigger" id="uploadTrigger">
+                  📷 Adjuntar fotos del vehículo (máx. 7)
+                </div>
+                <input type="file" id="photoInput" accept="image/*" multiple onchange="previewPhotos(this)" />
+                <div id="previewContainer" class="preview-grid"></div>
+              </label>
+            </div>
+
+            <button type="submit" class="btn-submit" style="background:var(--amarillo); color:var(--negro);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+              Enviar por WhatsApp →
+            </button>
+            <div id="formMsg" class="form-success" style="display:none;margin-top:14px;">
+              ✅ ¡Solicitud enviada! Te contactaremos por WhatsApp para confirmar tu cita.
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- RIGHT COL -->
+      <div class="right-col">
+
+        <div class="info-card">
+          <div class="info-card-header">
+            <h2>Información del Taller</h2>
+          </div>
+          <div class="info-card-body">
+            <div class="trust-list">
+              <div class="trust-item">
+                <div class="trust-icon" style="background:rgba(245,197,24,0.07);border-color:rgba(245,197,24,0.18);">📍</div>
+                <div>
+                  <h3>Ubicación</h3>
+                  <p>Mismo lugar que Importadora Méndez — Guatemala. Fácil acceso y estacionamiento disponible.</p>
+                </div>
+              </div>
+              <div class="trust-item">
+                <div class="trust-icon" style="background:rgba(245,197,24,0.07);border-color:rgba(245,197,24,0.18);">🕐</div>
+                <div>
+                  <h3>Horario de atención</h3>
+                  <p>Lunes a Sábado de 8:00am a 8:00pm. Ingreso de vehículos con cita previa.</p>
+                </div>
+              </div>
+              <div class="trust-item">
+                <div class="trust-icon" style="background:rgba(245,197,24,0.07);border-color:rgba(245,197,24,0.18);">📞</div>
+                <div>
+                  <h3>Teléfono</h3>
+                  <p><a href="tel:+50242754206" style="color:var(--amarillo);">4275-4206</a> — Atención inmediata</p>
+                </div>
+              </div>
+              <div class="trust-item">
+                <div class="trust-icon" style="background:rgba(37,211,102,0.07);border-color:rgba(37,211,102,0.18);color:var(--wa-green);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+                </div>
+                <div>
+                  <h3>WhatsApp directo</h3>
+                  <p><a href="https://wa.me/50242754206" target="_blank" style="color:var(--wa-green);">4275-4206</a> — Respuesta inmediata</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <div class="info-card-header">
+            <h2>Servicios disponibles</h2>
+          </div>
+          <div class="info-card-body">
+            <div class="steps-list">
+              <div class="step-row">
+                <div class="step-num">🎨</div>
+                <div class="step-content">
+                  <h3>Pintura</h3>
+                  <p>Completa, parcial o retoque. Acabados de fábrica garantizados.</p>
+                </div>
+              </div>
+              <div class="step-row">
+                <div class="step-num">🔧</div>
+                <div class="step-content">
+                  <h3>Enderezado</h3>
+                  <p>Carrocería, abolladuras y corrección de golpes con equipos de precisión.</p>
+                </div>
+              </div>
+              <div class="step-row">
+                <div class="step-num">⚙️</div>
+                <div class="step-content">
+                  <h3>Mecánica General</h3>
+                  <p>Motor, frenos, suspensión, cambio de aceite y mantenimiento completo.</p>
+                </div>
+              </div>
+              <div class="step-row">
+                <div class="step-num">🪑</div>
+                <div class="step-content">
+                  <h3>Lavado de Tapicería</h3>
+                  <p>Limpieza profunda de asientos, alfombras y habitáculo completo.</p>
+                </div>
+              </div>
+              <div class="step-row">
+                <div class="step-num">✨</div>
+                <div class="step-content">
+                  <h3>Pulidas Generales</h3>
+                  <p>Pulido, encerado y detallado profesional con protección UV.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA importadora -->
+        <div class="taller-importadora-card">
+          <span class="section-eyebrow" style="margin-bottom:10px;display:block;">También ofrecemos</span>
+          <h3>¿Buscas un vehículo?</h3>
+          <p>Visita nuestra importadora. Contamos con catálogo de vehículos importados desde EE.UU. y financiamiento disponible con BAC.</p>
+          <a href="../index.html#carros" class="btn-primary btn-full" style="margin-top:18px;">Ver catálogo →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="../index.html"><img src="../img/logo2.png" alt="Importadora Méndez" class="footer-logo" /></a>
+        <p>Importadora de vehículos y taller mecánico especializado.<br>Tu vehículo ideal, donde tú lo elijas.</p>
+        <div class="footer-social">
+          <a href="https://wa.me/50242754206" target="_blank" aria-label="WhatsApp">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+          </a>
+          <a href="mailto:importadoramendez@gmail.com" aria-label="Email">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navegar</h4>
+        <a href="../index.html">Inicio</a>
+        <a href="../index.html#carros">Catálogo</a>
+        <a href="taller-mg.html">Taller M&G</a>
+        <a href="vendemos-tu-vehiculo.html">Vender Vehículo</a>
+        <a href="importamos-tu-vehiculo.html">Importar Vehículo</a>
+      </div>
+      <div class="footer-col">
+        <h4>Servicios Taller</h4>
+        <a href="#pintura">Pintura</a>
+        <a href="#enderezado">Enderezado</a>
+        <a href="#mecanica">Mecánica General</a>
+        <a href="#tapiceria">Lavado de Tapicería</a>
+        <a href="#pulidas">Pulidas Generales</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <a href="mailto:importadoramendez@gmail.com">importadoramendez@gmail.com</a>
+        <a href="tel:+50242754206">4275-4206</a>
+        <a href="https://wa.me/50242754206" target="_blank">WhatsApp</a>
+        <span style="color:var(--texto-gris);font-size:13px;">Lun – Sáb · 8am – 8pm</span>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2026 Importadora Méndez · Taller M&G. Guatemala. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/50242754206?text=Hola!%20Quiero%20agendar%20un%20servicio%20en%20Taller%20M%26G." class="whatsapp-float" target="_blank" aria-label="Contáctanos por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+    menuBtn.addEventListener('click', () => navLinks.classList.toggle('active'));
+    document.addEventListener('click', e => {
+      if (!navLinks.contains(e.target) && !menuBtn.contains(e.target))
+        navLinks.classList.remove('active');
+    });
+    function closeMenu() { navLinks.classList.remove('active'); }
+
+    function handleTaller(e) {
+      e.preventDefault();
+      const data = new FormData(e.target);
+      const nombre      = data.get('nombre') || '';
+      const telefono    = data.get('telefono') || '';
+      const email       = data.get('email') || 'No indicado';
+      const marca       = data.get('marca') || '';
+      const modelo      = data.get('modelo') || '';
+      const anio        = data.get('anio') || 'No indicado';
+      const color       = data.get('color') || 'No indicado';
+      const servicio    = data.get('servicio') || '';
+      const descripcion = data.get('descripcion') || 'Sin descripción.';
+      const fecha       = data.get('fecha') || 'A coordinar';
+
+      const text = `🔧 *SOLICITUD DE SERVICIO — TALLER M&G*\n\n👤 *Nombre:* ${nombre}\n📞 *Teléfono:* ${telefono}\n📧 *Email:* ${email}\n\n🚗 *Vehículo:* ${marca} ${modelo}\n📅 *Año:* ${anio}\n🎨 *Color:* ${color}\n\n🛠 *Servicio solicitado:*\n${servicio}\n\n📝 *Descripción del problema:*\n${descripcion}\n\n📆 *Fecha preferida de ingreso:* ${fecha}\n\nSolicito presupuesto y confirmación de cita.`;
+
+      const encoded = encodeURIComponent(text);
+      const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+      const url = isMobile
+        ? `https://wa.me/50242754206?text=${encoded}`
+        : `https://web.whatsapp.com/send?phone=50242754206&text=${encoded}`;
+
+      document.getElementById('formMsg').style.display = 'block';
+      setTimeout(() => { window.open(url, '_blank'); e.target.reset(); document.getElementById('previewContainer').innerHTML = ''; }, 500);
+    }
+
+    function previewPhotos(input) {
+      const container = document.getElementById('previewContainer');
+      container.innerHTML = '';
+      Array.from(input.files).slice(0, 7).forEach(file => {
+        const reader = new FileReader();
+        reader.onload = ev => {
+          const img = document.createElement('img');
+          img.src = ev.target.result;
+          container.appendChild(img);
+        };
+        reader.readAsDataURL(file);
+      });
+    }
+
+    // Animación scroll reveal
+    const revealEls = document.querySelectorAll('.ts-card, .proceso-item, .taller-why-item');
+    const ro = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          ro.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    revealEls.forEach((el, i) => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(24px)';
+      el.style.transition = `opacity 0.55s ease ${(i % 5) * 0.1}s, transform 0.55s ease ${(i % 5) * 0.1}s`;
+      ro.observe(el);
+    });
+  </script>
+
+</body>
+</html>
